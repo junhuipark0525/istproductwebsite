@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Flicker Studio</title>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css">
+        <link rel = "stylesheet" type = "text/css" href = "indexstyle.css">
+    </head>
+
+    <body>
+        <nav>
+            <ul class="nav justify-content-left mt-2 mb-1">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html"><img src="candle.png" id = "icon"></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+                <li class = "nav-item">
+                    <a class = "nav-link dropdown-toggle" data-bs-toggle="dropdown">Products</a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="cubed.html">Bubble Cubed Candle</a></li>
+                        <li><a class="dropdown-item" href="stack.html">Stacked Candle</a></li>
+                        <li><a class="dropdown-item" href="swirl.html">Swirl Candle</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <header class="mt-4 mb-3 p-5 text-center bg-light text-black rounded">
+            <img src="candle.png" id = "logotop">
+            <h1><b>Flicker Studio</b></h1>
+            <em class = "text-muted">Where enchanting scent meets exquisite designs </em>
+        </header>
+
+        <div class="container mt-5">
+            <h2>Our Products</h2>
+            <aside class="col-md-9 mx-auto">
+                <div class="row">
+                    <div class="col-4 mb-4">
+                        <a href ="cubed.html" class= "text-decoration-none link-dark">
+                            <div class= "card">
+                                <img src= "bubblecube.webp">
+                                <div class="card-body">
+                                    <p class="card-text">Bubble Cubed Candles</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class= "col-4 mb-4">
+                        <a href ="swirl.html" class= "text-decoration-none link-dark">
+                            <div class= "card">
+                                <img src="swirlcandle.webp">
+                                <div class="card-body">
+                                    <p class="card-text">Swirly Candles</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+
+                    <div class= "col-4 mb-4">
+                        <a href ="stack.html" class= "text-decoration-none link-dark">
+                            <div class= "card">
+                                <img src="pillar.webp">
+                                <div class="card-body">
+                                    <p class="card-text">Stacked Candles</p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </aside>
+
+            <main class="col-md-9">
+                <article>
+                    <header>
+                        <h2>Latest Announcements</h2>
+                        <p>Published On <time datetime="2023-10-02">October 2, 2023</time></p>
+                    </header>
+                    <p>We are currently making new interior design candles with more scents. From highly requested fragrance of musk, vanilla, and sage to  amber, sandalwood and eucalyptus, our upcoming candles will have innovative designs with varieties of scents.</p>
+                </article>
+            </main>
+        </div>
+        <br /> 
+        <div class="container mt-3">
+            <h2>Review</h2>
+            <form action="/action_page.php">
+                <div class="mb-3 mt-3">
+                    <textarea class="form-control" rows="3" placeholder="Leave us a review for future customers!"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+        <footer class="text-center py-4">
+            <h4>Flicker Studio</h4>
+            <p>© 2023 Junhui Park. All rights reserved.</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,33 @@
+h1 { 
+    font-size: 200%;
+}
+
+#icon {
+    margin-left: 20px;
+    width: 30px;
+    height: 30px;
+}
+
+#logotop {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+#plant {
+    width: 20%;
+    height: 20%;
+    margin-left: 10px;
+}
+
+#smallabout {
+    width: 30%;
+    height: 30%;
+}
+
+#purchase {
+    width: 50%;
+    height: 50%;
+    margin-left: 3%;
+    padding-right: 5%;
+}
